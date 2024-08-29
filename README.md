@@ -5,7 +5,7 @@
 
 **Download files:**
 ```
-wget https://raw.githubusercontent.com/pkoperwas/custom-rhel9/main/ks.cfg -O /nfs-server/ks.cfg
+wget https://raw.githubusercontent.com/pkoperwas/custom-rhel9/main/rhel9-ks.cfg -O /nfs-server/ks.cfg
 wget (from RedHat customer portal) rhel-9.4-x86_64-dvd.iso -O /nfs-server/rhel-9.4-x86_64-dvd.iso
 ```
 
@@ -25,7 +25,7 @@ blkid /nfs-server/rhel-9.4-x86_64-dvd.iso
 
 **Copy Kickstart File Into ISO Directory**
 ```
-cp /nfs-server/ks.cfg /nfs-server/rhel9iso
+cp /nfs-server/rhel9-ks.cfg /nfs-server/rhel9iso/ks.cfg
 ```
 
 **Modify the isolinux.cfg file to Point to the New Kickstart File**
