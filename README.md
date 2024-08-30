@@ -71,6 +71,3 @@ dnf install isomd5sum -y
 implantisomd5 /nfs-server/custom-rhel9.iso
 ```
 
-![screenshot](installation_process1.png)
-![screenshot](installation_process2.png)
-![screenshot](installation_process3.png)
