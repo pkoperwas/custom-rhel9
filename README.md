@@ -1,4 +1,4 @@
-# How to prepare own custom (via kickstart) RHEL9 ISO file 
+# Custom RHEL9 ISO (via kickstart file) 
 *steps tested on rhel9*
 #
 
