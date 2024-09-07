@@ -5,7 +5,7 @@
 
 **Download files:**
 ```
-wget https://raw.githubusercontent.com/pkoperwas/custom-rhel9/main/rhel9-ks.cfg -O /nfs-server/ks.cfg
+wget https://raw.githubusercontent.com/pkoperwas/custom-rhel9/main/rhel9-ks.cfg -O /nfs-server/rhel9-ks.cfg
 wget (from RedHat customer portal) rhel-9.4-x86_64-dvd.iso -O /nfs-server/rhel-9.4-x86_64-dvd.iso
 ```
 
